@@ -1,0 +1,254 @@
+{
+  "prompts": [
+    {
+      "category": "Everyday Dev Tasks",
+      "title": "Refactor a file",
+      "prompt": "// Refactor {a specific} file from {x} to {y}..."
+    },
+    {
+      "category": "Everyday Dev Tasks",
+      "title": "Add a test suite",
+      "prompt": "// Add a test suite..."
+    },
+    {
+      "category": "Everyday Dev Tasks",
+      "title": "Add type hints",
+      "prompt": "// Add type hints to {a specific} Python function..."
+    },
+    {
+      "category": "Everyday Dev Tasks",
+      "title": "Generate mock data",
+      "prompt": "// Generate mock data for {a specific} schema..."
+    },
+    {
+      "category": "Everyday Dev Tasks",
+      "title": "Convert CommonJS to ES modules",
+      "prompt": "// Convert these commonJS modules to ES modules..."
+    },
+    {
+      "category": "Everyday Dev Tasks",
+      "title": "Convert callbacks to async/await",
+      "prompt": "// Turn this callback-based code into async/await..."
+    },
+    {
+      "category": "Everyday Dev Tasks",
+      "title": "Implement a data class",
+      "prompt": "// Implement a data class for this dictionary structure..."
+    },
+    {
+      "category": "Debugging",
+      "title": "Fix a specific error",
+      "prompt": "// Help me fix {a specific} error..."
+    },
+    {
+      "category": "Debugging",
+      "title": "Analyze slow code",
+      "prompt": "// Why is {this specific snippet of code} slow?"
+    },
+    {
+      "category": "Debugging",
+      "title": "Trace an undefined value",
+      "prompt": "// Trace why this value is undefined..."
+    },
+    {
+      "category": "Debugging",
+      "title": "Diagnose a memory leak",
+      "prompt": "// Diagnose this memory leak..."
+    },
+    {
+      "category": "Debugging",
+      "title": "Add logging",
+      "prompt": "// Add logging to help debug this issue..."
+    },
+    {
+      "category": "Debugging",
+      "title": "Find race conditions",
+      "prompt": "// Find race conditions in this async code"
+    },
+    {
+      "category": "Debugging",
+      "title": "Trace execution with print statements",
+      "prompt": "// Add print statements to trace the execution flow of this Python script..."
+    },
+    {
+      "category": "Documentation",
+      "title": "Write a README",
+      "prompt": "// Write a README for this project"
+    },
+    {
+      "category": "Documentation",
+      "title": "Add comments to code",
+      "prompt": "// Add comments to this code"
+    },
+    {
+      "category": "Documentation",
+      "title": "Write API docs",
+      "prompt": "// Write API docs for this endpoint"
+    },
+    {
+      "category": "Documentation",
+      "title": "Generate Sphinx-style docstrings",
+      "prompt": "// Generate Sphinx-style docstrings for this Python module/class/function..."
+    },
+    {
+      "category": "Testing",
+      "title": "Add integration tests",
+      "prompt": "// Add integration tests for this API endpoint"
+    },
+    {
+      "category": "Testing",
+      "title": "Write a test that mocks fetch",
+      "prompt": "// Write a test that mocks fetch"
+    },
+    {
+      "category": "Testing",
+      "title": "Convert a test from Mocha to Jest",
+      "prompt": "// Convert this test from Mocha to Jest"
+    },
+    {
+      "category": "Testing",
+      "title": "Generate property-based tests",
+      "prompt": "// Generate property-based tests for this function"
+    },
+    {
+      "category": "Testing",
+      "title": "Simulate slow network conditions",
+      "prompt": "// Simulate slow network conditions in this test suite"
+    },
+    {
+      "category": "Testing",
+      "title": "Write a backward compatibility test",
+      "prompt": "// Write a test to ensure backward compatibility for this function"
+    },
+    {
+      "category": "Testing",
+      "title": "Write a Pytest fixture",
+      "prompt": "// Write a Pytest fixture to mock this external API call..."
+    },
+    {
+      "category": "Package Management",
+      "title": "Upgrade a linter",
+      "prompt": "// Upgrade my linter and autofix breaking config changes"
+    },
+    {
+      "category": "Package Management",
+      "title": "Show a changelog",
+      "prompt": "// Show me the changelog for React 19"
+    },
+    {
+      "category": "Package Management",
+      "title": "Find removable dependencies",
+      "prompt": "// Which dependencies can I safely remove?"
+    },
+    {
+      "category": "Package Management",
+      "title": "Check if packages are maintained",
+      "prompt": "// Check if these packages are still maintained"
+    },
+    {
+      "category": "Package Management",
+      "title": "Set up Renovate or Dependabot",
+      "prompt": "// Set up Renovate or Dependabot for auto-updates"
+    },
+    {
+      "category": "AI-Native Tasks",
+      "title": "Generate feature ideas",
+      "prompt": "// Analyze this repo and generate 3 feature ideas"
+    },
+    {
+      "category": "AI-Native Tasks",
+      "title": "Identify tech debt",
+      "prompt": "// Identify tech debt in this file"
+    },
+    {
+      "category": "AI-Native Tasks",
+      "title": "Find duplicate logic",
+      "prompt": "// Find duplicate logic across files"
+    },
+    {
+      "category": "AI-Native Tasks",
+      "title": "Cluster related functions",
+      "prompt": "// Cluster related functions and suggest refactors"
+    },
+    {
+      "category": "AI-Native Tasks",
+      "title": "Scope an issue",
+      "prompt": "// Help me scope this issue so Jules can solve it"
+    },
+    {
+      "category": "AI-Native Tasks",
+      "title": "Convert a function to a plugin",
+      "prompt": "// Convert this function into a reusable plugin/module"
+    },
+    {
+      "category": "AI-Native Tasks",
+      "title": "Refactor for parallel processing",
+      "prompt": "// Refactor this Python function to be more amenable to parallel processing (e.g., using multiprocessing or threading)..."
+    },
+    {
+      "category": "Context",
+      "title": "Write a status update",
+      "prompt": "// Write a status update based on recent commits"
+    },
+    {
+      "category": "Context",
+      "title": "Summarize recent changes",
+      "prompt": "// Summarize all changes in the last 7 days"
+    },
+    {
+      "category": "Fun & Experimental",
+      "title": "Add a confetti animation",
+      "prompt": "// Add a confetti animation when {a specific} action succeeds"
+    },
+    {
+      "category": "Fun & Experimental",
+      "title": "Inject a developer joke",
+      "prompt": "// Inject a developer joke when {a specific} build finishes"
+    },
+    {
+      "category": "Fun & Experimental",
+      "title": "Build a mini CLI game",
+      "prompt": "// Build a mini CLI game that runs in the terminal"
+    },
+    {
+      "category": "Fun & Experimental",
+      "title": "Add a dark mode Easter egg",
+      "prompt": "// Add a dark mode Easter egg to this UI"
+    },
+    {
+      "category": "Fun & Experimental",
+      "title": "Turn a tool into a GitHub App",
+      "prompt": "// Turn this tool into a GitHub App"
+    },
+    {
+      "category": "Start from Scratch",
+      "title": "Analyze a repo",
+      "prompt": "// What's going on in this repo?"
+    },
+    {
+      "category": "Start from Scratch",
+      "title": "Initialize an Express app",
+      "prompt": "// Initialize a new Express app with CORS enabled"
+    },
+    {
+      "category": "Start from Scratch",
+      "title": "Set up a monorepo",
+      "prompt": "// Set up a monorepo using Turborepo and PNPM"
+    },
+    {
+      "category": "Start from Scratch",
+      "title": "Bootstrap a Python project",
+      "prompt": "// Bootstrap a Python project with Poetry and Pytest"
+    },
+    {
+      "category": "Start from Scratch",
+      "title": "Create a Chrome extension template",
+      "prompt": "// Create a starter template for a Chrome extension"
+    },
+    {
+      "category": "Start from Scratch",
+      "title": "Start a web scraper",
+      "prompt": "// I want to build a web scraper—start me off"
+    }
+  ]
+}
